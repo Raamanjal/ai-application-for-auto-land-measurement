@@ -1,0 +1,85 @@
+.gps-location-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+  }
+  
+  .gps-location-card h3 {
+    margin-top: 0;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  .gps-controls {
+    margin: 15px 0;
+  }
+  
+  .gps-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .start-button {
+    background: #4CAF50;
+    color: white;
+  }
+  
+  .start-button:hover {
+    background: #45a049;
+  }
+  
+  .stop-button {
+    background: #f44336;
+    color: white;
+  }
+  
+  .stop-button:hover {
+    background: #d32f2f;
+  }
+  
+  .location-data {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 6px;
+    margin: 15px 0;
+  }
+  
+  .location-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .location-row:last-child {
+    margin-bottom: 0;
+  }
+  
+  .location-label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .location-value {
+    color: #333;
+  }
+  
+  .error-message {
+    color: #d32f2f;
+    background: #fde0e0;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 15px 0;
+  }
+  
+  .location-instructions {
+    color: #666;
+    font-style: italic;
+    padding: 10px 0;
+  }
